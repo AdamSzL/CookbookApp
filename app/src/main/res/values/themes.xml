@@ -1,0 +1,14 @@
+<resources>
+    <!-- Wspólny motyw aplikacji. NoActionBar, bo używamy własnego MaterialToolbar. -->
+    <style name="Theme.Cookbook" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/tomato</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/saffron</item>
+    </style>
+
+    <style name="AppToolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+</resources>

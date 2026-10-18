@@ -1,0 +1,4 @@
+<resources>
+    <!-- Szerokość >= 600dp (tablet, telefon poziomo): dwa panele -->
+    <bool name="two_pane">true</bool>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Książka kucharska</string>
+    <string name="title_list">Przepisy</string>
+    <string name="not_found">Nie znaleziono przepisu</string>
+    <string name="pick_recipe">← Wybierz przepis z listy</string>
+
+    <string name="fmt_list_meta">%1$s · %2$d min</string>
+    <string name="fmt_details_meta">⏱ %1$d min  ·  🍽 porcje: %2$d  ·  %3$s</string>
+
+    <string name="rate">Oceń przepis</string>
+    <string name="rate_title">Twoja ocena</string>
+    <string name="cancel">Anuluj</string>
+    <string name="tab_ingredients">Składniki</string>
+    <string name="tab_steps">Przygotowanie</string>
+
+</resources>
