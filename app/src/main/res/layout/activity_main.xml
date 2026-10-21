@@ -23,13 +23,5 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1" />
-
-        <!-- Ten sam identyfikator co w layout-w600dp pozwala odtworzyć szczegóły
-             przed przeniesieniem ich do widocznego panelu w MainActivity. -->
-        <androidx.fragment.app.FragmentContainerView
-            android:id="@+id/detail_container"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:visibility="gone" />
     </LinearLayout>
 </LinearLayout>
