@@ -11,17 +11,10 @@
         style="@style/AppToolbar"
         android:theme="@style/ThemeOverlay.Material3.Dark.ActionBar" />
 
-    <LinearLayout
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/list_container"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="?android:attr/colorBackground"
-        android:orientation="horizontal">
-
-        <androidx.fragment.app.FragmentContainerView
-            android:id="@+id/list_container"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-    </LinearLayout>
+        android:background="?android:attr/colorBackground" />
 </LinearLayout>
