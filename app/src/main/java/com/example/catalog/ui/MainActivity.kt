@@ -96,8 +96,7 @@ class MainActivity : AppCompatActivity() {
         val showUp = !isTwoPane && details != null
         supportActionBar?.setDisplayHomeAsUpEnabled(showUp)
         title = if (showUp) {
-            details?.let { RecipeRepository.getById(it.recipeId)?.name }
-                ?: getString(R.string.title_list)
+            RecipeRepository.getById(details.recipeId)?.name ?: getString(R.string.title_list)
         } else {
             getString(R.string.title_list)
         }
