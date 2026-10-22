@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Wspólny layout dla obu zakładek-dzieci (składniki i kroki) -->
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -10,5 +11,6 @@
         android:layout_height="wrap_content"
         android:lineSpacingExtra="4dp"
         android:padding="16dp"
-        android:textAppearance="?attr/textAppearanceBodyLarge" />
+        android:textAppearance="?attr/textAppearanceBodyLarge"
+        tools:text="•  250 g mąki pszennej\n•  2 jajka\n•  500 ml mleka" />
 </com.google.android.material.card.MaterialCardView>
